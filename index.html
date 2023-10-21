@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Pessoal</title>
+    <style> /* Utilizado como ferramenta CSS para estilizar os elementos */
+        body {
+            margin: 0;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: #252729;
+            background-color: #BFDAA4;
+        }
+        .container {
+            display: grid;
+        }
+        header { /* Estilização do Cabeçalho */
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #384031;
+            margin-top: 0px;
+        }
+        .menu {
+            grid-column-start: 6;
+            grid-column-end: 12;
+            justify-content: center;
+            gap: 20px;
+        }
+        .imagem_Édina {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        .principal {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 50px;
+            padding-right: 50px;
+            text-align: justify;
+        }
+        footer { /* Estilização do Rodapé */
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #384031;
+            color: #252729;
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            color: #000000;
+        }
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid #384031 5px;
+            border-radius: 100px;
+        }
+        li {
+            float: left;
+            margin: 10px;
+        }
+        a:hover { /* Estilização do link quando coloca o mouse sobre a opção */
+            background-color: #667558;
+            color: #252729;
+        }
+    </style>
+</head>
+<body>
+    <header class="container">
+        <h1 style="color: #252729; text-align: center;">Portfólio Pessoal de<br>Édina Francieli Rauber</h1>
+    </header> 
+    <nav class="container menu">
+        <ul> <!--Lista de links não ordenada-->
+            <li><a href="index.html">Sobre</a></li> 
+            <li><a href="carreira.html">Carreira</a></li>
+            <li><a href="portfolio.html">Portfólio</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <div class="container wrapper">
+        <aside class="imagem_Édina eu msm">
+            <img src="Images/Édina eu msm.jpg" height="200" width="250">
+            <div class="infos"> <!--Informações gerais -->
+                <p><strong>Nascimento:</strong> 30 de Novembro de 2000 (22 anos) <br>Crissiumal - Rio Grande do Sul</p>
+                <p><strong>Cidade Atual:</strong> Crissiumal - Rio Grande do Sul</p>
+                <p><strong>Formação:</strong> Serviços Jurídicos, Cartorários e Notariais - UNOPAR</p>
+                <p><strong>Cursando:</strong> Engenharia de Software - UNINTER</p>
+            </div>
+        </aside>
+        <section class="principal">
+            <h1>
+                SOBRE
+            </h1>
+            <p>Édina Francieli Rauber, Brasileira nascida no município de Crissiumal no Estado do Rio Grande do Sul no dia 30 de novembro de 2000, é especialista em reposição de mercadorias da marca Colgate. Em 2020 começou no curso de Tecnologia em Serviços Jurídicos, Cartorários e Notariais pela UNOPAR do município de Crissiumal no Rio Grande do Sul onde concluiu o curso em agosto de 2022. Atuou profissionalmente por dois anos no atelier Ludwig passando pelos cargos de costureira e por fim de responsável pelos produtos embalados que seriam levados a empresa Coca-Cola e Colcci em Santa Catarina. Posteriormente optou por trabalhar na empresa Super Mercados Benedetti de Crissiumal no Estado do Rio Grande do Sul. Atuou durante 10 meses e atuava em áreas como: Caixa e reposição de mercadorias. No dia 10 de setembro de 2022 decidiu realizar o sonho de estudar Engenharia de Software na modalidade EAD, e decidiu que sua melhor escolha era a UNINTER.</p>
+            <p>
+                Sobre os interesses pessoais, Édina em seu tempo livre ama pescar, jogar futebol, jogar jogos no geral, ler, viajar com os pais e conhecer pessoas novas. É fascinada em novas tecnologias e adora inventar coisas para fazer no computador.</p>
+        </section>
+    </div>
+    <footer class="container">
+        <h1>Crissiumal - RS<br>2023</h1>
+    </footer>
+    </div>
+</body>
+</html>

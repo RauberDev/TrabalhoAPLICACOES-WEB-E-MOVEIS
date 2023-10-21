@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Pessoal de Édina Francieli Rauber</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: #252729;
+            background-color: #BFDAA4;
+        }
+        .container {
+            display: grid;
+        }
+        header {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #384031;
+            margin-top: 0px;
+        }
+        .menu {
+            grid-column-start: 6;
+            grid-column-end: 12;
+            justify-content: center;
+            gap: 20px;
+        }
+        .imagem_Édina {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        .principal {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 50px;
+            padding-right: 50px;
+            text-align: justify;
+        }
+        footer {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #384031;
+            color: #252729;
+            text-align: center;
+        }
+        .card {
+            display: flex;
+            flex-flow: row wrap;
+        }
+        ul {
+            list-style-type: none;
+            color: #ffffff;
+        }
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid #384031 5px;
+            border-radius: 100px;
+        }
+        li {
+            float: left;
+            margin: 10px;
+        }
+        a:hover {
+            background-color: #667558;
+            color: #252729;
+        }
+        .img {
+            border: 5px solid #384031;
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 50px;
+            margin: 30px;
+        }
+        .img img {
+            width: 150px;
+            height: 125px;
+        }
+        .empresa {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header class="container">
+        <h1 style="color: #252729; text-align: center;">Portfólio Pessoal de<br>Édina Francieli Rauber</h1>
+    </header>
+    <nav class="container menu">
+        <ul>
+            <li><a href="index.html">Sobre</a></li>
+            <li><a href="carreira.html">Carreira</a></li>
+            <li><a href="portfolio.html">Portfólio</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <div class="container wrapper">
+        <aside class="imagem_Édina eu msm">
+            <img src="Images/Édina eu msm.jpg" height="200" width="250">
+            <div class="infos">
+                <p><strong>Nascimento:</strong> 30 de Novembro de 2000 (22 anos) <br>Crissiumal - Rio Grande do Sul</p>
+                <p><strong>Cidade Atual:</strong> Crissiumal - Rio Grande do Sul</p>
+                <p><strong>Formação:</strong> Serviços Jurídicos, Cartorários e Notariais - UNOPAR</p>
+                <p><strong>Cursando:</strong> Engenharia de Software - UNINTER</p>
+            </div>
+        </aside>
+        <section class="principal">
+            <h1>
+                CARREIRA
+            </h1>
+            <p><strong>Cursos: </strong> <br> - Administração de Empresas; <br>- Cursando: Engenharia de Software (UNINTER); <br>- Inglês Avançado; <br>- Certificação em Informática.<br><br><strong>Experiências profissionais:</strong></p>
+            <div class="card">
+                <div class="img">
+                    <img src="Images/ludwig1.jpg">
+                    <div class="empresa">
+                        <h2>Ludwig Costura</h2>
+                        <p>2019-2021</p>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="Images/benedetti.jpg">
+                    <div class="empresa">
+                        <h2>Mercado Benedetti - Crissiumal</h2>
+                        <p>2022-2023</p>
+                    </div>
+                </div>
+                    </div>
+                </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="container">
+        <h1>Crissiumal - RS<br>2023</h1>
+    </footer>
+    </footer>
+    </div>
+</body>
+</html>
